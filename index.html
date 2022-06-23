@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Majelis Sirothol Mustaqim</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#"><img src="/img/logo.png" alt="logo"></a>
+        </div>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Media</li>
+            <li><a href="#"></a>Tausiah</li>
+            <li><a href="#"></a>Jadwal</li>
+            <li><a href="#"></a>TanyaJawab</li>
+            <li><a href="#"></a>Dokumentasi</li>
+            <li><a href="#"></a>Media</li>
+            <li><a href="#"></a>Referensi</li>
+        </ul>
+        <img src="./img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+
+
+    <header>
+        <div class="header-content">
+            <h2>Majelis Sirothol Mustaqim</h2>
+            <div class="line"></div>
+            <h1>JOURNEY OF RELIGON</h1>
+            <a href="#" class="ctn">Kunjungi</a>
+        </div>
+    </header>
+
+    <section class="profile">
+        <div class="row">
+            <div class="col content-col">
+                <h1>Profile</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dignissimos expedita debitis amet explicabo, itaque corrupti iusto dolorum cumque asperiores, at quia delectus eligendi earum. Impedit voluptate qui et vel.</p>
+                <a href="#" class="ctn">Baca Selengkapnya</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-galery">
+                    <img src="./img/logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="dakwah">
+        <div class="title">
+            <h1>Dakwah Today</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/img1.png" alt="">
+                <a href="#" class="btn">Tausiah</a>
+                <h4>Lorem, ipsum dolor.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia perspiciatis voluptate tenetur amet nobis neque praesentium reprehenderit voluptatum optio distinctio.</p>
+            </div>
+            <div class="col">
+                <img src="./img/img2.png" alt="">
+                <a href="#" class="tmbl">Tausiah</a>
+                <h4>Lorem, ipsum dolor.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia perspiciatis voluptate tenetur amet nobis neque praesentium reprehenderit voluptatum optio distinctio.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- event -->
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navlinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+    
+</body>
+</html>
